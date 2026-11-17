@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Generated embedding cache
+src/database/timetableEmbeddings.json
+src/database/timetableEmbeddings.json.tmp
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
